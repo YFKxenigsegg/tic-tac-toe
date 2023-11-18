@@ -1,0 +1,13 @@
+.selected {
+  border-color: solid black;
+  background-color: gray;
+}
+
+label {
+  height: 60px;
+}
+
+.form-label img {
+  width: 125px;
+  height: 30px;
+}

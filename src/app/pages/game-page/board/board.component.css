@@ -1,0 +1,24 @@
+.board {
+  width: 302px;
+  height: 302px;
+  margin: 20px auto;
+  display: grid;
+  grid-template: repeat(3, 100px) / repeat(3, 100px);
+  gap: 1px;
+  background: #333;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(30, 54, 64);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+img {
+  width: 30px;
+}

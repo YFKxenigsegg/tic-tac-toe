@@ -1,0 +1,11 @@
+<form class="container">
+    PICK MARK
+    <div class="toggle">
+        <label class="form-label" [class.selected]="mark" (click)="onClick()">
+            <img src="assets/img/x-v1.svg">
+        </label>
+        <label class="form-label" [class.selected]="!mark" (click)="onClick()">
+            <img src="assets/img/0-v1.svg">
+        </label>
+    </div>
+</form>

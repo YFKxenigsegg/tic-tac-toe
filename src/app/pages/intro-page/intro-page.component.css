@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 200px;
+  margin-top: -100px;
+  width: 400px;
+  margin-left: -200px;
+}
+
+.scenarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.scenario-button {
+  width: 300px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+}

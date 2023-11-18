@@ -1,0 +1,13 @@
+<div class="container">
+    <div *ngIf="isShow$ | async">
+        <div *ngIf="!(isDraw$ | async); else draw">
+            <img *ngIf="(player$ | async)?.mark" src="assets/img/x-v1.svg">
+            <img *ngIf="!(player$ | async)?.mark" src="assets/img/0-v1.svg">
+            WIN!
+        </div>
+        <ng-template #draw> It's a DRAW! </ng-template>
+    </div>
+    <app-functional-panel></app-functional-panel>
+    <app-board></app-board>
+    <app-info-panel></app-info-panel>
+</div>
